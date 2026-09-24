@@ -1,0 +1,179 @@
+{
+  "header": {
+    "nav": {
+      "services": "Yo’nalishlar",
+      "process": "Jarayon",
+      "cases": "Natijalar",
+      "pricing": "Narxlar"
+    },
+    "cta": "Bepul maslahat",
+    "ctaShort": "Maslahat",
+    "langLabel": "Til"
+  },
+  "hero": {
+    "pre": "Biznesingiz",
+    "post": "orqali o’ssin.",
+    "words": ["AI tizimlar", "aqilli agentlar", "avtomatlashtirish"],
+    "desc": "Biznes jarayonlarini tezlashtiradigan va daromadni oshiradigan zamonaviy AI infratuzilmasi.",
+    "cta1": "Bepul maslahat olish",
+    "cta2": "Ish jarayoni qanday"
+  },
+  "engines": {
+    "title": "To’rtta yo’nalish — bitta tizim",
+    "items": [
+      {
+        "name": "AI Content",
+        "problem": "Ijtimoiy tarmoqlar va kontentni tizimli boshqarish — tasodifiy post emas, oylik reja bilan."
+      },
+      {
+        "name": "AI System",
+        "problem": "Mijozlar bilan muloqotni, savol-javobni avtomatlashtiruvchi AI tizimlar."
+      },
+      {
+        "name": "Digital Build",
+        "problem": "Sayt va dasturlar — aniq texnik topshiriq asosida, boshidan oxirigacha nazorat bilan."
+      },
+      {
+        "name": "AI Tafakkur",
+        "problem": "AI va dasturlashni o’rgatuvchi ta’lim yo’nalishi — amaliy, guruh shaklida."
+      }
+    ],
+    "more": "Batafsil"
+  },
+  "process": {
+    "title": "Boshlanishdan ishga tushirishgacha — olti qadam",
+    "items": [
+      {
+        "name": "Brief",
+        "text": "Biznesingizni eshitamiz — muammo va maqsad aniq yozib olinadi."
+      },
+      {
+        "name": "Texnik reja",
+        "text": "Nima, qanday va qancha vaqtda qilinishi — hujjatda fiksirlanadi."
+      },
+      {
+        "name": "Ishlab chiqish",
+        "text": "Reja bo’yicha ish — oraliq natijalar ko’rsatib boriladi."
+      },
+      {
+        "name": "Sifat tekshiruvi",
+        "text": "Har bir detal tekshiriladi — xatolik mijozga yetib bormaydi."
+      },
+      {
+        "name": "Mijoz tasdig’i",
+        "text": "Tayyor natijani ko’rasiz, kerak bo’lsa tuzatish kiritiladi."
+      },
+      {
+        "name": "Joylashtirish",
+        "text": "Loyiha ishga tushadi — keyingi qadamlar kelishib olinadi."
+      }
+    ]
+  },
+  "cases": {
+    "title": "Natijalar gapiradi",
+    "sub": "Har bir loyiha — oldingi va joriy holati bilan. Jonli botni o’zingiz ochib tekshirishingiz mumkin.",
+    "serviceLabel": "Olingan xizmat:",
+    "beforeLabel": "Oldingi holat",
+    "afterLabel": "Joriy holat",
+    "openIn": "Telegram’da ochish",
+    "items": {
+      "tezqur": {
+        "name": "Tezqur",
+        "service": "Telegram buyurtma boti",
+        "before": "Buyurtmalar Telegram guruhda qo'lda qabul qilinar edi — yozishmalar chalkashib, mijozlar javobni soatlab kutardi.",
+        "after": "Mijoz botda katalogdan tanlab, 1 daqiqada buyurtma beradi — barcha buyurtmalar admin panelda tartib bilan ko'rinadi."
+      },
+      "keto": {
+        "name": "Keto Shop",
+        "service": "Telegram bot + AI yordamchi",
+        "before": "Narx va yetkazib berish haqidagi savollar direktga yog'ilib, operator ulgurmas edi — tungi mijozlar ertalabgacha kutardi.",
+        "after": "AI yordamchi tez-tez so'raladigan savollarga darhol javob beradi, buyurtma bot orqali bir yozishmada yopiladi."
+      },
+      "kans": {
+        "name": "Kans Shop",
+        "service": "Kontent yuritish + Telegram bot",
+        "before": "Instagramda tartibsiz postlar, buyurtmalar esa izohlarda adashib ketardi — qaysi mijoz nima so'ragani noma'lum edi.",
+        "after": "Oylik kontent reja + izohdan botga yo'naltirish — mijoz katalogni ko'rib, buyurtmani o'zi rasmiylashtiradi."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Boshlang’ich narxlar",
+    "sub": "Har loyiha har xil — pastdagilar mo’ljal. Aniq hisob-kitob bepul maslahatdan keyin chiqadi.",
+    "items": [
+      {
+        "service": "Content",
+        "desc": "Oylik kontent reja, postlar va sahifa yuritish",
+        "price": "$800",
+        "per": "oyiga"
+      },
+      {
+        "service": "Sayt / dastur",
+        "desc": "Dizayn, ishlab chiqish va joylashtirish",
+        "price": "$1,500",
+        "per": "dan"
+      },
+      {
+        "service": "AI tizim",
+        "desc": "Chatbot, CRM bog'lanish va avtomatlashtirish",
+        "price": "$2,000",
+        "per": "dan"
+      }
+    ],
+    "ctaLead": "Aniq narx — maslahatdan keyin.",
+    "ctaRest": "15 daqiqalik suhbatda loyihangizni eshitamiz va aniq taklif beramiz.",
+    "ctaBtn": "Bepul maslahat olish"
+  },
+  "form": {
+    "title": "Bepul maslahat olish",
+    "desc": "Formani to’ldiring — biznesingizga qaysi yo’nalish mosligini aniqlab, xulosa va keyingi qadamlarni yuboramiz. Bu bepul va hech narsaga majburlamaydi.",
+    "perks": ["Bepul tahlil", "Hech qanday majburiyat", "24 soat ichida javob"],
+    "direct": "Yoki bevosita:",
+    "nameLabel": "Ismingiz",
+    "namePlaceholder": "Masalan: Jasur Karimov",
+    "phoneLabel": "Telefon",
+    "phonePlaceholder": "90 123 45 67",
+    "serviceLabel": "Qanday yordam kerak?",
+    "servicePlaceholder": "Tanlang",
+    "services": {
+      "content": "Kontent yuritish (SMM)",
+      "system": "AI yordamchi (avto-javoblar)",
+      "build": "Sayt yoki dastur",
+      "tafakkur": "AI Tafakkur (ta’lim)",
+      "other": "Hali bilmayman — maslahat kerak"
+    },
+    "commentLabel": "Qisqa izoh",
+    "commentOptional": "(ixtiyoriy)",
+    "commentPlaceholder": "Biznesingiz haqida yozing",
+    "submit": "So’rov yuborish",
+    "submitting": "Yuborilmoqda...",
+    "toastTitle": "So’rovingiz yuborildi",
+    "toastDesc": "Tez orada bog’lanamiz.",
+    "countryCodeLabel": "Davlat kodi"
+  },
+  "footer": {
+    "tagline": "Texnologiya orqali qulaylik. Tizim orqali xotirjamlik.",
+    "contact": "Aloqa",
+    "tafakkurTitle": "AI Tafakkur",
+    "tafakkurDesc": "AI va dasturlashni amaliy o’rganmoqchi bo’lganlar uchun — guruh shaklida ta’lim yo’nalishi.",
+    "tafakkurLink": "Ta’lim kanali",
+    "rights": "Barcha huquqlar himoyalangan."
+  },
+  "validation": {
+    "nameMin": "Ismingizni kiriting",
+    "nameMax": "Ism juda uzun",
+    "phoneMin": "Telefon raqamni to'liq kiriting",
+    "phoneMax": "Telefon raqam noto'g'ri",
+    "phoneChars": "Telefon raqamda faqat raqam va + ( ) - belgilar bo'lishi mumkin",
+    "serviceRequired": "Xizmatni tanlang",
+    "commentMax": "Izoh 500 belgidan oshmasligi kerak",
+    "phoneInvalid": "Telefon raqam noto’g’ri kiritilgan"
+  },
+  "apiErrors": {
+    "BAD_JSON": "So'rov formati noto'g'ri.",
+    "INVALID": "Ma'lumotlar to'liq emas, qayta tekshiring.",
+    "NO_CRM": "Ariza hozircha qabul qilinmadi — biz bilan bevosita bog'laning.",
+    "CRM_ERROR": "Yuborishda xatolik — keyinroq urinib ko'ring.",
+    "NETWORK": "Yuborishda xatolik — keyinroq urinib ko'ring."
+  }
+}

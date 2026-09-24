@@ -1,0 +1,179 @@
+{
+  "header": {
+    "nav": {
+      "services": "Services",
+      "process": "Process",
+      "cases": "Results",
+      "pricing": "Pricing"
+    },
+    "cta": "Free consultation",
+    "ctaShort": "Consult",
+    "langLabel": "Language"
+  },
+  "hero": {
+    "pre": "Grow your business with",
+    "post": "",
+    "words": ["AI systems", "smart agents", "automation"],
+    "desc": "Modern AI infrastructure that speeds up business processes and grows revenue.",
+    "cta1": "Get a free consultation",
+    "cta2": "How we work"
+  },
+  "engines": {
+    "title": "Four directions — one system",
+    "items": [
+      {
+        "name": "AI Content",
+        "problem": "Systematic social media and content management — not random posts, but a monthly plan."
+      },
+      {
+        "name": "AI Systems",
+        "problem": "AI systems that automate customer communication and Q&A."
+      },
+      {
+        "name": "Digital Build",
+        "problem": "Websites and apps — based on a clear spec, controlled from start to finish."
+      },
+      {
+        "name": "AI Tafakkur",
+        "problem": "An education track in AI and programming — practical, group-based."
+      }
+    ],
+    "more": "Learn more"
+  },
+  "process": {
+    "title": "From start to launch — six steps",
+    "items": [
+      {
+        "name": "Brief",
+        "text": "We listen to your business — the problem and goal are clearly recorded."
+      },
+      {
+        "name": "Technical plan",
+        "text": "What, how and how long it takes — fixed in a document."
+      },
+      {
+        "name": "Development",
+        "text": "Work per plan — interim results shown along the way."
+      },
+      {
+        "name": "Quality check",
+        "text": "Every detail is checked — no bug reaches the client."
+      },
+      {
+        "name": "Client approval",
+        "text": "You see the finished result; revisions added if needed."
+      },
+      {
+        "name": "Launch",
+        "text": "The project goes live — next steps agreed together."
+      }
+    ]
+  },
+  "cases": {
+    "title": "Results speak",
+    "sub": "Every project — with its before and after. You can open the live bot and check for yourself.",
+    "serviceLabel": "Service received:",
+    "beforeLabel": "Before",
+    "afterLabel": "After",
+    "openIn": "Open in Telegram",
+    "items": {
+      "tezqur": {
+        "name": "Tezqur",
+        "service": "Telegram ordering bot",
+        "before": "Orders were taken manually in a Telegram group — chats got messy and customers waited hours for a reply.",
+        "after": "Customers pick from the catalog in the bot and check out in 1 minute — all orders neatly visible in the admin panel."
+      },
+      "keto": {
+        "name": "Keto Shop",
+        "service": "Telegram bot + AI assistant",
+        "before": "Price and delivery questions flooded DMs, operators couldn't keep up — nighttime customers waited until morning.",
+        "after": "The AI assistant instantly answers FAQs, and orders close in the bot within a single chat."
+      },
+      "kans": {
+        "name": "Kans Shop",
+        "service": "Content management + Telegram bot",
+        "before": "Random Instagram posts, and orders got lost in comments — no one knew which customer asked for what.",
+        "after": "Monthly content plan + redirecting comments into the bot — customers browse the catalog and check out themselves."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Starting prices",
+    "sub": "Every project is different — below are guide prices. An exact quote comes after a free consultation.",
+    "items": [
+      {
+        "service": "Content",
+        "desc": "Monthly content plan, posts and page management",
+        "price": "$800",
+        "per": "/month"
+      },
+      {
+        "service": "Website / app",
+        "desc": "Design, development and launch",
+        "price": "$1,500",
+        "per": "from"
+      },
+      {
+        "service": "AI system",
+        "desc": "Chatbot, CRM integration and automation",
+        "price": "$2,000",
+        "per": "from"
+      }
+    ],
+    "ctaLead": "Exact price — after consultation.",
+    "ctaRest": "In a 15-minute call we'll hear your project out and give an exact quote.",
+    "ctaBtn": "Get a free consultation"
+  },
+  "form": {
+    "title": "Get a free consultation",
+    "desc": "Fill in the form — we'll figure out which direction fits your business and send a summary with next steps. It's free and non-binding.",
+    "perks": ["Free analysis", "No obligations", "Reply within 24 hours"],
+    "direct": "Or directly:",
+    "nameLabel": "Your name",
+    "namePlaceholder": "E.g. Jasur Karimov",
+    "phoneLabel": "Phone",
+    "phonePlaceholder": "90 123 45 67",
+    "serviceLabel": "What do you need?",
+    "servicePlaceholder": "Select",
+    "services": {
+      "content": "Content management (SMM)",
+      "system": "AI assistant (auto-replies)",
+      "build": "Website or app",
+      "tafakkur": "AI Tafakkur (education)",
+      "other": "Not sure yet — need advice"
+    },
+    "commentLabel": "Short comment",
+    "commentOptional": "(optional)",
+    "commentPlaceholder": "Tell us about your business",
+    "submit": "Send request",
+    "submitting": "Sending...",
+    "toastTitle": "Request sent",
+    "toastDesc": "We'll get in touch soon.",
+    "countryCodeLabel": "Country code"
+  },
+  "footer": {
+    "tagline": "Comfort through technology. Peace of mind through systems.",
+    "contact": "Contact",
+    "tafakkurTitle": "AI Tafakkur",
+    "tafakkurDesc": "For those who want to learn AI and programming hands-on — group-based education.",
+    "tafakkurLink": "Learning channel",
+    "rights": "All rights reserved."
+  },
+  "validation": {
+    "nameMin": "Please enter your name",
+    "nameMax": "Name is too long",
+    "phoneMin": "Please enter the full phone number",
+    "phoneMax": "Invalid phone number",
+    "phoneChars": "Phone number may contain only digits and + ( ) -",
+    "serviceRequired": "Please select a service",
+    "commentMax": "Comment must not exceed 500 characters",
+    "phoneInvalid": "Phone number is invalid"
+  },
+  "apiErrors": {
+    "BAD_JSON": "Invalid request format.",
+    "INVALID": "Incomplete data, please check again.",
+    "NO_CRM": "Requests temporarily unavailable — contact us directly.",
+    "CRM_ERROR": "Submission failed — please try again later.",
+    "NETWORK": "Submission failed — please try again later."
+  }
+}

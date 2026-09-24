@@ -1,6 +1,8 @@
 import type { Metadata } from "next"
 import { Space_Grotesk, IBM_Plex_Sans, Fraunces } from "next/font/google"
 import { Toaster } from "@/components/ui/sonner"
+import { Cursor } from "@/components/cursor"
+import { LanguageProvider } from "@/components/language-provider"
 import "./globals.css"
 
 // Display/headings — Space Grotesk (frontend.md §1)
@@ -41,8 +43,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`dark ${display.variable} ${body.variable} ${accent.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-paper text-ink">
-        {children}
-        <Toaster position="bottom-center" />
+        <LanguageProvider>
+          {children}
+          <Cursor />
+          <Toaster position="bottom-center" />
+        </LanguageProvider>
       </body>
     </html>
   )

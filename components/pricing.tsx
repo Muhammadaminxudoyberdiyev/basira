@@ -1,41 +1,34 @@
+"use client"
+
+import { useTranslation } from "react-i18next"
 import { cn } from "cn"
 import { buttonVariants } from "@/components/ui/button"
 import { CONTAINER } from "@/lib/site"
 
 // Narxlar — matn-birinchi ro'yxat, SaaS pricing-card'larisiz.
 // Har qatorda: xizmat + bir qator izoh, o'ngda katta narx.
-// TODO(vaqtincha): narx va qamrov tavsiflari taxminiy — tasdiqlangach yangilanadi.
-const prices = [
-  {
-    service: "Content",
-    desc: "Oylik kontent reja, postlar va sahifa yuritish",
-    price: "$800",
-    per: "oyiga",
-  },
-  {
-    service: "Sayt / dastur",
-    desc: "Dizayn, ishlab chiqish va joylashtirish",
-    price: "$1,500",
-    per: "dan",
-  },
-  {
-    service: "AI tizim",
-    desc: "Chatbot, CRM bog'lanish va avtomatlashtirish",
-    price: "$2,000",
-    per: "dan",
-  },
-]
+// Qiymatlar lug'atda (pricing.items).
+interface PriceItem {
+  service: string
+  desc: string
+  price: string
+  per: string
+}
 
 export function Pricing() {
+  const { t } = useTranslation()
+  const prices = t("pricing.items", {
+    returnObjects: true,
+  }) as unknown as PriceItem[]
+
   return (
     <section id="pricing" className="scroll-mt-24">
       <div className={cn(CONTAINER, "py-16 md:py-24")}>
         <h2 className="max-w-2xl font-display text-[25px] font-semibold tracking-tight text-ink md:text-[31px]">
-          Boshlang’ich narxlar
+          {t("pricing.title")}
         </h2>
         <p className="mt-4 max-w-xl leading-relaxed text-ink-muted">
-          Har loyiha har xil — pastdagilar mo’ljal. Aniq hisob-kitob bepul
-          maslahatdan keyin chiqadi.
+          {t("pricing.sub")}
         </p>
 
         <div className="mt-10">
@@ -62,10 +55,8 @@ export function Pricing() {
 
         <div className="mt-10 flex flex-col gap-5 rounded-2xl border border-line bg-raised p-7 sm:flex-row sm:items-center sm:justify-between md:p-8">
           <p className="max-w-md leading-relaxed text-ink-muted">
-            <span className="font-medium text-ink">
-              Aniq narx — maslahatdan keyin.
-            </span>{" "}
-            15 daqiqalik suhbatda loyihangizni eshitamiz va aniq taklif beramiz.
+            <span className="font-medium text-ink">{t("pricing.ctaLead")}</span>{" "}
+            {t("pricing.ctaRest")}
           </p>
           <a
             href="#maslahat"
@@ -74,7 +65,7 @@ export function Pricing() {
               "shrink-0 bg-signal font-medium text-black transition-colors duration-150 hover:bg-signal/85"
             )}
           >
-            Bepul maslahat olish
+            {t("pricing.ctaBtn")}
           </a>
         </div>
       </div>

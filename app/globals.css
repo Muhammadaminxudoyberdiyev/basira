@@ -192,3 +192,35 @@
     scroll-behavior: smooth;
   }
 }
+
+/* Maxsus kursor (components/cursor.tsx) — faqat sichqonchali
+   qurilmalarda native kursor yashiriladi. */
+@media (pointer: fine) {
+  * {
+    cursor: none;
+  }
+}
+
+/* react-phone-number-input — forma stiliga moslash (lead-form.tsx).
+   Kutubxona o'z style.css'ini beradi, bu yerda rang/o'lcham override.
+   Bayroq o'rniga kod matni ko'rsatiladi (custom countrySelect). */
+.lead-phone .PhoneInputInput {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  background: transparent;
+  border: 0;
+  outline: none;
+  color: inherit;
+  /* Kod divider'i bilan raqam orasida havo bo'lishi uchun. */
+  padding-left: 0.5rem;
+}
+
+.lead-phone .PhoneInputInput::placeholder {
+  color: var(--muted-foreground);
+  opacity: 1;
+}
+
+.lead-phone .PhoneInputCountrySelect {
+  cursor: none;
+}

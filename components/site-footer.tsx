@@ -1,10 +1,14 @@
+"use client"
+
+import { useTranslation } from "react-i18next"
 import { cn } from "cn"
 import { CONTAINER, site } from "@/lib/site"
 
 // Footer — sahifadan bir pog'ona ajralgan blok (raised + hairline).
 // AI Tafakkur alohida qatorda: uning auditoriyasi o'quvchi,
-// biznes egasi emas (frontend.md §3).
+// biznes egasi emas.
 export function SiteFooter() {
+  const { t } = useTranslation()
   return (
     <footer className="border-t border-line bg-raised text-ink">
       <div className={cn(CONTAINER, "py-14 md:py-16")}>
@@ -14,11 +18,11 @@ export function SiteFooter() {
               {site.name}
             </p>
             <p className="mt-3 max-w-sm text-[15px] leading-relaxed text-ink-muted">
-              Texnologiya orqali qulaylik. Tizim orqali xotirjamlik.
+              {t("footer.tagline")}
             </p>
           </div>
           <div className="text-[15px]">
-            <p className="font-medium">Aloqa</p>
+            <p className="font-medium">{t("footer.contact")}</p>
             <ul className="mt-3 space-y-2 text-ink-muted">
               <li>
                 <a
@@ -59,10 +63,9 @@ export function SiteFooter() {
             </ul>
           </div>
           <div className="text-[15px]">
-            <p className="font-medium">AI Tafakkur</p>
+            <p className="font-medium">{t("footer.tafakkurTitle")}</p>
             <p className="mt-3 leading-relaxed text-ink-muted">
-              AI va dasturlashni amaliy o’rganmoqchi bo’lganlar uchun — guruh
-              shaklida ta’lim yo’nalishi.
+              {t("footer.tafakkurDesc")}
             </p>
             <a
               href={site.tafakkurTelegram}
@@ -70,7 +73,7 @@ export function SiteFooter() {
               rel="noreferrer"
               className="group/link mt-3 inline-block font-medium text-ink transition-colors duration-150 hover:text-signal"
             >
-              Ta’lim kanali{" "}
+              {t("footer.tafakkurLink")}{" "}
               <span
                 aria-hidden
                 className="inline-block transition-transform duration-200 group-hover/link:translate-x-1"
@@ -82,8 +85,7 @@ export function SiteFooter() {
         </div>
         <div className="mt-12 flex flex-col gap-2 border-t border-line pt-6 text-sm text-ink-muted md:flex-row md:items-center md:justify-between">
           <p>
-            © {new Date().getFullYear()} {site.name}. Barcha huquqlar
-            himoyalangan.
+            © {new Date().getFullYear()} {site.name}. {t("footer.rights")}
           </p>
         </div>
       </div>

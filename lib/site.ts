@@ -1,11 +1,10 @@
 // Sayt bo'ylab ishlatiladigan umumiy konstantalar.
-// TODO: ishga tushirishdan oldin real kontaktlarni yozib chiqing.
 export const site = {
   name: "MN Development",
-  phone: "+998 90 123 45 67",
-  phoneHref: "tel:+998901234567",
-  email: "hello@mndevelopment.uz",
-  telegram: "https://t.me/mndevelopment",
+  phone: "+998 77 071 16 61",
+  phoneHref: "tel:+998770711661",
+  email: "muradjanovai@gmail.com",
+  telegram: "https://t.me/muradjanovvn",
   instagram: "https://instagram.com/mndevelopment",
   tafakkurTelegram: "https://t.me/ai_tafakkur",
 } as const

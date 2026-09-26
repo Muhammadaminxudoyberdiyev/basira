@@ -149,7 +149,10 @@
     "submitting": "Sending...",
     "toastTitle": "Request sent",
     "toastDesc": "We'll get in touch soon.",
-    "countryCodeLabel": "Country code"
+    "countryCodeLabel": "Country code",
+    "telegramTitle": "Message us on Telegram",
+    "telegramDesc": "Send us your idea — together we will turn it into a clear plan.",
+    "telegramBtn": "Open in Telegram"
   },
   "footer": {
     "tagline": "Comfort through technology. Peace of mind through systems.",

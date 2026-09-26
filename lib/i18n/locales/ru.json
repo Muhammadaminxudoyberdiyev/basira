@@ -153,7 +153,10 @@
     "submitting": "Отправка...",
     "toastTitle": "Заявка отправлена",
     "toastDesc": "Мы скоро свяжемся с вами.",
-    "countryCodeLabel": "Код страны"
+    "countryCodeLabel": "Код страны",
+    "telegramTitle": "Напишите в Telegram",
+    "telegramDesc": "Напишите вашу идею — вместе превратим её в чёткий план.",
+    "telegramBtn": "Открыть в Telegram"
   },
   "footer": {
     "tagline": "Удобство через технологии. Спокойствие через систему.",

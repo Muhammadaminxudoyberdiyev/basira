@@ -149,7 +149,10 @@
     "submitting": "Yuborilmoqda...",
     "toastTitle": "So’rovingiz yuborildi",
     "toastDesc": "Tez orada bog’lanamiz.",
-    "countryCodeLabel": "Davlat kodi"
+    "countryCodeLabel": "Davlat kodi",
+    "telegramTitle": "Telegram orqali yozing",
+    "telegramDesc": "G‘oyangizni yozing — birga aniq rejaga aylantiramiz.",
+    "telegramBtn": "Telegram’da ochish"
   },
   "footer": {
     "tagline": "Texnologiya orqali qulaylik. Tizim orqali xotirjamlik.",

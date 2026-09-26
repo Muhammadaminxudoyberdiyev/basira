@@ -51,14 +51,8 @@ export function SiteFooter() {
                 </a>
               </li>
               <li>
-                <a
-                  href={site.instagram}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="transition-colors duration-150 hover:text-signal"
-                >
-                  Instagram
-                </a>
+                {/* Instagram hozircha o'chiq — keyin ulanadi. */}
+                <span className="text-ink-muted/60">Instagram</span>
               </li>
             </ul>
           </div>
@@ -67,20 +61,7 @@ export function SiteFooter() {
             <p className="mt-3 leading-relaxed text-ink-muted">
               {t("footer.tafakkurDesc")}
             </p>
-            <a
-              href={site.tafakkurTelegram}
-              target="_blank"
-              rel="noreferrer"
-              className="group/link mt-3 inline-block font-medium text-ink transition-colors duration-150 hover:text-signal"
-            >
-              {t("footer.tafakkurLink")}{" "}
-              <span
-                aria-hidden
-                className="inline-block transition-transform duration-200 group-hover/link:translate-x-1"
-              >
-                →
-              </span>
-            </a>
+            {/* Ta'lim kanali linki keyin qo'shiladi. */}
           </div>
         </div>
         <div className="mt-12 flex flex-col gap-2 border-t border-line pt-6 text-sm text-ink-muted md:flex-row md:items-center md:justify-between">

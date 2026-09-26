@@ -59,7 +59,7 @@ export async function POST(req: Request) {
       },
       body: JSON.stringify({
         ...parsed.data,
-        source: "mn-development-landing",
+        source: "basira-one-landing",
         created_at: new Date().toISOString(),
       }),
       signal: AbortSignal.timeout(10_000),

@@ -1,4 +1,4 @@
-# frontend.md — MN Development Landing Page
+# frontend.md — Basira One Landing Page
 
 Project-specific companion to `SKILL.md` (Next.js Senior Frontend Engineering Standard). Everything here is specific to _this_ page; the universal rules (shadcn-first, state split, forms, code quality) still apply unchanged from `SKILL.md`.
 
@@ -6,7 +6,7 @@ Project-specific companion to `SKILL.md` (Next.js Senior Frontend Engineering St
 
 ## 0. Brief, restated
 
-One page. No login, no dashboard. A visitor lands, understands what MN Development does (AI Content / AI System / Digital Build / AI Tafakkur), trusts it, and submits the audit form. The form is proxied server-side to a partner-built CRM API (Python, built by another developer) — this page does not store leads itself.
+One page. No login, no dashboard. A visitor lands, understands what Basira One does (AI Content / AI System / Digital Build / AI Tafakkur), trusts it, and submits the audit form. The form is proxied server-side to a partner-built CRM API (Python, built by another developer) — this page does not store leads itself.
 
 Audience: business owners in Uzbekistan looking for growth through content, AI systems, or a website — practical people, not early-adopter tech enthusiasts. The design has to read as **competent and calm**, not "startup hype." The brand's own words for this: _"Texnologiya orqali qulaylik. Tizim orqali xotirjamlik."_ — that's the feeling the page should give before a single word is read.
 

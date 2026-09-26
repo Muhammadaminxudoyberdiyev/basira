@@ -29,7 +29,7 @@ const accent = Fraunces({
 })
 
 export const metadata: Metadata = {
-  title: "MN Development — Biznesingiz uchun texnologiya",
+  title: "Basira One — Biznesingiz uchun texnologiya",
   description:
     "Content, AI tizimlar va sifatli veb-yechimlar — bittasi emas, barchasi bitta tizim ichida.",
 }

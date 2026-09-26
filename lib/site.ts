@@ -1,6 +1,6 @@
 // Sayt bo'ylab ishlatiladigan umumiy konstantalar.
 export const site = {
-  name: "MN Development",
+  name: "Basira One",
   phone: "+998 77 071 16 61",
   phoneHref: "tel:+998770711661",
   email: "muradjanovai@gmail.com",
